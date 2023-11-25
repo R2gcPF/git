@@ -1,6 +1,10 @@
 import streamlit as st
+from PIL import Image
 
-st.title('Streamlit 超入門')
+st.title('パプリカ')
+img = Image.open("4.2.07.tiff")
+st.image(img, caption='Sample', use_column_width=True)
+
 
 """
 # 章
@@ -14,5 +18,3 @@ import pandas as pd
 ```
 
 """
-
-
