@@ -6,13 +6,13 @@ import numpy as np
 def get_rand_df():
     lat = np.random.randint(-90, 90)
     lon = np.random.randint(-180, 180)
-    df = pd.DataFrame({'LAT':[lat], 'LON':[lon]})
+    df = pd.DataFrame({'lat':[lat], 'lon':[lon]})
     return df
 
 def main():
     df = get_rand_df()
     # c_left, c_right = st.columns(2)
-    st.title(f'ENTITY {df["LAT"][0]} {df["LON"][0]}')
+    st.title(f'ENTITY {df["lat"][0]} {df["lon"][0]}')
     # with c_left:
     btn = st.button('RELOAD')
     # with c_right:
