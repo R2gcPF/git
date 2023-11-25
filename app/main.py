@@ -14,9 +14,9 @@ def main():
     st.title(f'ENTITY {df["lat"][0]} {df["lon"][0]}')
     btn = st.button('RELOAD')
     map_main = st.map(df)
-    map_sub = st.map(df, zoom=0)
-    if btn:
-        st.rerun()
+    # map_sub = st.map(df, zoom=0)
+    # if btn:
+    #     st.rerun()
 
 if __name__ == '__main__':
     main()
