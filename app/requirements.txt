@@ -1,2 +1,1 @@
-streamlit
-PIL
+streamlit==0.68.0

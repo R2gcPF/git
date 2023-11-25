@@ -1,9 +1,9 @@
 import streamlit as st
-from PIL import Image
+# from PIL import Image
 
-st.title('パプリカ')
-img = Image.open("4.2.07.tiff")
-st.image(img, caption='Sample', use_column_width=True)
+st.title('test')
+# img = Image.open("4.2.07.tiff")
+# st.image(img, caption='Sample', use_column_width=True)
 
 
 """
