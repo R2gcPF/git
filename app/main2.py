@@ -4,7 +4,6 @@ from PIL import Image
 import time
 
 st.title('test2')
-img = Image.open('https://github.com/R2gcPF/git/blob/main/app/4.2.07.tiff')
 
 'Start'
 latest_iteration = st.empty()
@@ -16,4 +15,3 @@ for i in range(100):
     time.sleep(0.01)
 
 'Done'
-st.image(img)
