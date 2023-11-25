@@ -4,7 +4,7 @@ from PIL import Image
 import time
 
 st.title('test2')
-img = Image.open('4.2.07.tiff')
+img = Image.open('./4.2.07.tiff')
 
 'Start'
 latest_iteration = st.empty()
